@@ -1,0 +1,41 @@
+Overview
+In this capstone project, you will create a presentation that showcases a well-built retrieval-based or generative chatbot system.
+
+The purpose of this capstone is to practice building chatbots that use natural language processing and machine learning.
+
+Compared to the other projects you have completed thus far, we are requiring few restrictions on how you structure your code. The project is much more open-ended, and you should use your creativity.
+
+Import/Download the Data
+The data you use in this project is up to you. You can access chat data using a dataset from Kaggle or by downloading data from a platform like Twitter, Slack, or Reddit.
+
+Expectations
+If you choose to build a retrieval-based chatbot, we want to see the following:
+
+You’ve implemented natural language processing and machine learning techniques, including a language or topic model like Bag-of-Words or tf-idf and word embeddings using word2vec.
+You’ve included a closed-domain chatbot architecture that encompasses:
+intent classification
+entity recognition
+response selection
+If you choose to build a generative chatbot, we want to see the following:
+
+You’ve used a seq2seq LSTM network built with Keras or another implementation not taught (e.g., seq2seq in PyTorch or using a transformer model).
+The chatbot is able to handle user input and language that wasn’t part of the training data.
+Bonus:
+
+Add a user interface (GUI, website) for your chatbot.
+If you build a generative chatbot, try including attention in the seq2seq network.
+If you build a generative chatbot, add in some rule-based or retrieval-based methods to improve the experience further.
+Format of Capstone Project
+Create a GitHub repository that includes a README file and code for your chatbot in the format of .py files or Jupyter Notebook. Make sure the README file includes the following:
+
+The title of the project, your name, and your Codecademy username
+Your choice of retrieval or generative chatbot, and explanation as to why you decided on an open or closed-domain architecture
+Use case(s) for your chatbot
+A list of techniques used
+A reflection (either within the README or a link to an external blog post) detailing your process, challenges, successes, learnings, as well as ethical concerns and how they could be addressed
+A list of dependencies for your project, including any libraries or packages your code relies on, and any datasets used (if possible, provide a link to your dataset)
+Some sort of visual, whether it be a gif, a series of screenshots, or screen recordings of your chatbot in action
+Share your Project
+Post your presentation on the Codecademy forum to show off your hard work!
+
+Good luck!
